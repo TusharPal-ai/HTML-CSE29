@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 1250px;
+    background-color: rgb(255, 81, 122);
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+     /* height: 100px;*/
+    width: 100px; 
+    background-color: aquamarine;
+    margin: 10px;
+    border: 1px solid black;
+    align-content: center;
+    align-items: stretch;
+    
+
+}
